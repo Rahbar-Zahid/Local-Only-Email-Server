@@ -281,7 +281,7 @@ sudo systemctl restart postfix
 sudo systemctl restart dovecot
 ```
 
-<img src="https://github.com/user-attachments/assets/b89c05b9-48c6-44b6-8f3f-590990c113d6" alt="Restarting postfix and dovecot"
+<img src="https://github.com/user-attachments/assets/b89c05b9-48c6-44b6-8f3f-590990c113d6" alt="Restarting postfix and dovecot">
 
 
 
