@@ -11,7 +11,9 @@ It will open Windows Features. In it find and enable ___Virtual Machine Platform
 Press Ok and restart PC. 
 
 Afterwards, Open powershell as administrator and run command
+
 `wsl --install`
 
 Make sure you have WSL2 install.
+
 `wsl --status`
