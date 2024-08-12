@@ -273,6 +273,15 @@ Uncomment the highlighted line of _plain_text_authntication= yes_ and set it to 
 <img src="https://github.com/user-attachments/assets/2a10fd10-1e97-45ba-b2ac-7a7a371e2249" alt="Edit in Auth File">
 
 
+## Restart Services
+
+Enter the following commands to restart Postfix and dovecot services.
+```
+sudo systemctl restart postfix
+sudo systemctl restart dovecot
+```
+
+<img src="https://github.com/user-attachments/assets/b89c05b9-48c6-44b6-8f3f-590990c113d6" alt="Restarting postfix and dovecot"
 
 
 
