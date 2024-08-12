@@ -22,10 +22,10 @@ Make sure you have WSL2 installed.
 
 `wsl --status`
 
-##Install Ubuntu
+## Install Ubuntu
 Now you can install Ubuntu from the Windows Store or via the command line.
 
-###Via Microsoft Store
+### Via Microsoft Store
 Search Ubuntu in the Microsoft store and install it.
 You can install any specific version as well (like in my case I installed the 24.04 LTS version).
 
@@ -34,7 +34,7 @@ You can install any specific version as well (like in my case I installed the 24
 Just make sure to install the one provided by Canonical Group Ltd.
 Now, open it for it to be able to install and register in Windows. When asked for a Unix username and password use whichever username and password you want.
 
-###Via Command Line in Powershell(Administrator)
+### Via Command Line in Powershell(Administrator)
 To view all available distros that can be installed, enter the command
 
 `wsl --list --online`
@@ -58,7 +58,7 @@ Next, check the state of your wsl type
 
 <img src="https://github.com/user-attachments/assets/ebb14197-cfff-4f4b-99cb-11d88a04f7c0" alt="Installed Distros and WSL Version Running" width="50%" height="50%">
 
-##Launch Ubuntu
+## Launch Ubuntu
 To launch Ubuntu, either search ___Ubuntu 24.04 LTS___ in the Start Menu.
 
 <img src="https://github.com/user-attachments/assets/816b4ed6-2215-4d36-9937-43cba551a4c7" alt ="Search Ubuntu 24.04 LTS" width="50%" height="50%">
@@ -69,7 +69,8 @@ Or enter the following command in Powershell.
 
 <img src="https://github.com/user-attachments/assets/215ad799-0b16-4605-a258-4ea825f3cea2" alt = "Launching Ubuntu via powershell" width="50%" height="50%">
 
-##Update Ubuntu
+
+## Update Ubuntu
 
 In the terminal enter the following commands one by one. Enter the password for authentication.
 
@@ -82,7 +83,7 @@ In the terminal enter the following commands one by one. Enter the password for 
 
 Note: if the update fails, try configuring the DNS within your Ubuntu as mentioned below.
 
-###Configuring DNS
+### Configuring DNS
 In the terminal, enter
 
 `sudo nano /etc/resolv.conf`
@@ -101,7 +102,7 @@ generateResolvConf = false
 
 Try updating again, it should come through.
 
-##Enable systems
+## Enable systemd
 To enable systems, first open wsl.conf via the following terminal command
 
 `sudo nano /etc/wsl.conf`
@@ -120,5 +121,5 @@ This allows multiple features and packages in your Ubuntu system to be used in t
 Update Ubuntu once more.
 Note: if the update fails again, go through the Configuring DNS steps again and you should be good.
 
-##Install and set up Postfix and Dovecot
+## Install and set up Postfix and Dovecot
 
